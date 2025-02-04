@@ -1,31 +1,26 @@
-# Personal Summary
+# devfolio
+A simple, responsive, single-page portfolio and resume for developers built with Bulma, Sass, Font Awesome and Flickity.
 
-I am currently completing the last semester of my Master's degree in Economics from Sciences Po Paris School of Research. My thesis investigates the impact of preferential housing benefits for public sector works on their wealth accumulation trajectory in China after housing market privitisation in the 1990s. 
-I have research skills in literature review and web crawling, regression analysis in R and Stata, and model simulation in Julia.
-I am actively looking for research opportunities in wealth and taxation, development, and energy transition, where I can deepen my skills in econometrics and data analytics. 
+View the [demo here](https://mmacneil.github.io/devfolio/).
 
-- [My CV](https://github.com/tanfei-li/cv.pdf)
-- [LinkedIn](https://www.linkedin.com/in/tanfei-li-284623209/)
-- Email: [tanfei0606@gmail.com]
+### Desktop version
+<img src="https://github.com/mmacneil/devfolio/blob/master/docs/devfolio-desktop.gif" />
 
-# Skills
+### Responsive version
+<img src="https://github.com/mmacneil/devfolio/blob/master/docs/devfolio-responsive.gif" height="485" />
 
-- **Programming:** R, Stata, Julia
-- **Data Analysis:** Regression Analysis, Panel Data, DiD Estimation
-- **Tools:** LaTeX, Git, MS
-- **Languages:** English & Mandarin (Bilingual), French (Advanced), German (Beginner)
+## Setup
 
-
-# Projects
-
-### Match Model Simulation and Plots 
-- For pcoming paper "Are Active Labor Market Policies Directed at Firms Effective? Evidence from a Randomized Evaluation with Local Employment Agencies" by Yann Algan (HEC) & Bruno Crépon (CREST)
-- [View the Repository](https://github.com/tanfei-li/Matching-Model-Plots)
-
-### Replication of Acemoglu et al. (2021) in Julia for Computational Economics
-- [View the Repository](https://github.com/tanfei-li/RepOptimalLockdowns.jl)
-
-
----
-
-# Passions
+1. Clone, fork or create a template from this repository.
+2. Install required dependencies from your terminal by running `npm install` from the project folder root containing `package.json`.
+ <pre>
+ <code>src\>npm install</code></pre>
+3. Use webpack to compile and bundle the css/js by running `npm run build` from the project folder root containing `webpack.config.js`.  Webpack will also begin watching these files for changes and re-build as they're modified.
+ <pre>
+ <code>src\>npm run build</code></pre>
+ 4. Open `index.html` locally in your favorite browser.
+ 5. Modify accordingly - styles, colors and variables can be changed in `styles.scss`.  Refer to the Bulma docs for guidance on how to quickly customize further to suit your tastes using  [color helpers](https://bulma.io/documentation/modifiers/color-helpers/) and [variables](https://bulma.io/documentation/customize/variables/).  See the [Flickity](https://github.com/metafizzy/flickity) docs if you wish to modify the carousel.
+ 
+ ## Contact
+ markmacneil@gmail.com
+ 
