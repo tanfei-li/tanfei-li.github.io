@@ -3,10 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to My Site</title>
+    <h1>Welcome to my website!</h1>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        .container {
+            display: flex;
+            width: 100%;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .sidebar {
+            width: 30%;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            margin: 10px;
+        }
+        .content {
+            width: 70%;
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #0073e6;
+        }
+        a {
+            color: #0073e6;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .section {
+            background: #fff;
+            padding: 20px;
+            margin: 10px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .profile-pic {
+            width: 100%;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello, World! I am currently updating my page. Please come back later. </h1>
-    <p>This is tanfei-li.github.io</p>
+    <div class="container">
+        <div class="sidebar">
+            <img src="Images/profile.heic" alt="Profile Picture" class="profile-pic">
+            <h2>Your Name</h2>
+            <p>Master's Student in Economics<br>Sciences Po Paris School of Research</p>
+            <p><strong>Email:</strong> <a href="mailto:tanfei0606@gmail.com">tanfei0606@gmail.com</a></p>
+        </div>
+        
+
+        <div class="content">
+            <h2>Personal Summary</h2>
+            <div class="section">
+                <p>I am currently completing the last semester of my MRes in Economics from Sciences Po Paris School of Research. My thesis investigates the impact of preferential housing benefits for public sector workers on their wealth accumulation trajectory in China after housing market privatization in the 1990s.</p>
+                <p>I have research skills in literature review and web crawling, regression analysis in R and Stata, and model simulation in Julia. I am actively looking for research opportunities in wealth and taxation, development.
+
+            <div class="section">
+                <p><a href="Documents/cv.pdf">My CV</a> | <a href="https://www.linkedin.com/in/tanfei-li-284623209/">LinkedIn</a></p>
+            </div>
+
+
+            <h2>Projects</h2>
+            <div class="section">
+                <p><strong>Match Model Simulation and Plots</strong></p>
+                <p>For upcoming paper "Are Active Labor Market Policies Directed at Firms Effective? Evidence from a Randomized Evaluation with Local Employment Agencies" by Yann Algan (HEC) & Bruno Crépon (CREST)</p>
+                <p><a href="https://github.com/tanfei-li/Matching-Model-Plots">View the Repository</a></p>
+
+                <p><strong>Replication of Acemoglu et al. (2021) in Julia for Computational Economics</strong></p>
+                <p><a href="https://github.com/tanfei-li/RepOptimalLockdowns.jl">View the Repository</a></p>
+            </div>
+
+            <h2>Skills</h2>
+            <div class="section">
+                <p><strong>Programming:</strong> R, Stata, Julia</p>
+                <p><strong>Data Analysis:</strong> Regression Analysis, Panel Data, DiD Estimation</p>
+                <p><strong>Tools:</strong> LaTeX, Git, MS Office</p>
+                <p><strong>Languages:</strong> English & Mandarin (Bilingual), French (Advanced), German (Beginner)</p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
+
+
